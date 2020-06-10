@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<title>jauery_1</title>
+<head>
+<script src="jquery.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    var div=$("div");  
+    div.animate({left:'100px'},"slow");
+    div.animate({fontSize:'3em'},"slow");
+  });
+});
+</script> 
+</head>
+<body>
+<button>开始动画</button>
+<p>欢迎访问，请点击开始动画</p>
+<div style="background:#98bf21;height:150px;width:200px;position:absolute;">Good Morning</div>
+</body>
+</html>
